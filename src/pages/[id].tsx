@@ -116,7 +116,7 @@ const Pokemon = () => {
             </div>
             <div style={{marginLeft: "15px"}}>
 
-            {data && data.pokemon.resistant.map((da: any, i: BigInteger) => (
+            {data && data.pokemon.resistant.map((da: any, i: any) => (
 
 
               <div key={da}>
@@ -133,7 +133,7 @@ const Pokemon = () => {
             </div>
             <div style={{marginLeft: "15px"}}>
 
-            {data && data.pokemon.types.map((da: any, i: BigInteger) => (
+            {data && data.pokemon.types.map((da: any, i: any) => (
               <div key={da}>
                 {i+1}. {da}
               </div>
@@ -147,7 +147,7 @@ const Pokemon = () => {
             </div>
             <div style={{marginLeft: "15px", marginBottom: "15px"}}>
 
-            {data && data.pokemon.weaknesses.map((da: any, i: BigInteger) => (
+            {data && data.pokemon.weaknesses.map((da: any, i: any) => (
 
 
               <div key={da}>
