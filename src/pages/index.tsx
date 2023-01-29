@@ -43,7 +43,7 @@ const Index =() => {
     <div>
       {data? (
         <div>
-        {data.pokemons.map((da: any, i: BigInteger) => (
+        {data.pokemons.map((da: any, i: any) => (
           <a key={da.id} href={`/${da.id}`} className="main_box_text" style={{textDecoration: "none"}}>
           <div className="main_box" style={{display: "flex", justifyContent: "center", alignItems: "center", height: "100px", marginBottom: "20px"}}>
             <div className="sec_box" style={{display: "flex", justifyContent: "space-evenly", alignItems: "center", width: "50%", border: "1px solid", height: "100%"}}>
