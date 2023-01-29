@@ -128,7 +128,6 @@ const Pokemon = () => {
           </div>
           <div className="description_sec">
             <div className="title">
-
             Type
             </div>
             <div style={{marginLeft: "15px"}}>
