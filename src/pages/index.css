@@ -1,0 +1,17 @@
+.main_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_box_text {
+    text-decoration: none;
+}
+
+.sec_box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    border: 1px solid;
+}
